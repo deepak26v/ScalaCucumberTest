@@ -77,6 +77,11 @@
         <groupId>net.alchim31.maven</groupId>
         <artifactId>scala-maven-plugin</artifactId>
         <version>3.2.0</version>
+        <configuration>
+          <args>
+            <arg>-Yresolve-term-conflict:object</arg>   <!-- required for package/object name conflict in Jenkins jar -->
+          </args>
+        <configuration>
         <executions>
           <execution>
             <goals>
