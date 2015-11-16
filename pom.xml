@@ -81,7 +81,7 @@
           <args>
             <arg>-Yresolve-term-conflict:object</arg>   <!-- required for package/object name conflict in Jenkins jar -->
           </args>
-        <configuration>
+        </configuration>
         <executions>
           <execution>
             <goals>
